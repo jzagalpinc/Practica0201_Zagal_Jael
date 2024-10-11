@@ -6,4 +6,3 @@ precio_con_descuento = round(precio * barras * (1 - descuento),2)
 print(f"El precio común de las barras de pan es de: {precio}")
 print(f"El descuento por no ser fresca es de: {descuento * 100}%")
 print(f"El precio final a pagar es: {precio_con_descuento}")
-
